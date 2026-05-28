@@ -19,15 +19,17 @@ analysis_USE_THIS_ONE.py
 
 We've all been there. Version control fixes this. With Git + GitHub you get:
 
-- **A complete history** — every saved version is recoverable. You can see what changed, when, and why, and roll back to any earlier state.
-- **A backup off your laptop** — if your machine dies, your work doesn't.
-- **A way to collaborate** — several people work on the same project without emailing zip files around.
-- **A single source of truth** — no more guessing which file is the latest.
+- **A complete history**: every saved version is recoverable. You can see what changed, when, and why, and roll back to any earlier state.
+- **A backup off your laptop**: if your machine dies, your work doesn't.
+- **A way to collaborate**: several people work on the same project without emailing zip files around.
+- **A single source of truth**: no more guessing which file is the latest.
 
 Two terms people mix up:
 
 - **Git** is the tool that tracks changes (runs on your computer).
 - **GitHub** is the website that stores your project online and lets you share it.
+
+Both are built for **code and small text files, not large data or model weights**, which belong in proper storage. More on this in [Best Practices](04-best-practices.md).
 
 ---
 
@@ -46,16 +48,16 @@ Because we work with medical data and AI, one rule matters more than everything 
 
 ## How to read this guide
 
-These first four pages are the **essentials** — read them in order and you'll be productive:
+These first four pages are the **essentials**, read them in order and you'll be productive:
 
-1. **[Setup](01-setup.md)** — install the tools and create your account.
-2. **[Create a Repository](02-create-a-repository.md)** — make your first repo; public vs private.
-3. **[The Core Workflow](03-core-workflow.md)** — commit, push, pull. This is all you need day to day.
-4. **[Best Practices](04-best-practices.md)** — what's good, what's a hard no (data!), and `.gitignore`. **Don't skip this** — it's the part that keeps medical data safe.
+1. **[Setup](01-setup.md)**: install the tools and create your account.
+2. **[Create a Repository](02-create-a-repository.md)**: make your first repo; public vs private.
+3. **[The Core Workflow](03-core-workflow.md)**: commit, push, pull. This is all you need day to day.
+4. **[Best Practices](04-best-practices.md)**: what's good, what's a hard no (data!), and `.gitignore`. **Don't skip this**, it's the part that keeps medical data safe.
 
 When you're comfortable and want more:
 
-5. **[Going Further](05-going-further.md)** — branches, undoing changes, stash, and collaborators.
+5. **[Going Further](05-going-further.md)**: branches, undoing changes, stash, and collaborators.
 
 > [!NOTE]
-> Every step is shown **two ways**: with **GitHub Desktop** (a free point-and-click app — easiest to start with) and the **terminal / command line** for those who prefer it or need it later. Use whichever you like; they do the same thing.
+> Every step is shown **two ways**: with **GitHub Desktop** (a free point-and-click app, easiest to start with) and the **terminal / command line** for those who prefer it or need it later. Use whichever you like; they do the same thing.

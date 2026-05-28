@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────
+# Example .gitignore for medical / AI code projects
+# Copy into your repo and adjust. The point: keep
+# DATA and SECRETS out of version control.
+# ─────────────────────────────────────────────
+
+# === Data (NEVER commit patient/medical data) ===
+data/
+raw/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.dcm        # DICOM
+*.nii        # NIfTI
+*.nii.gz
+*.edf        # EEG / physiological signals
+*.mat
+
+# === Secrets & credentials ===
+.env
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# === Model weights / large artifacts ===
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# === Logs / caches / experiment tracking ===
+*.log
+.cache/
+runs/
+wandb/
+
+# === OS / editor cruft ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

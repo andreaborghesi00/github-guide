@@ -13,10 +13,18 @@ edit files  →  commit  →  push      (save your work and back it up)
 
 A **commit** is a saved snapshot of your project at a point in time, with a short message describing what changed. Commits live on *your computer* until you push them.
 
+A commit happens in **two beats**:
+
+1. **Stage** — pick *which* changes go into this snapshot (tick the files in GitHub Desktop, or `git add` them in the terminal). You don't have to include everything; you can leave some changes for a later commit.
+2. **Commit** — save that selection with a message.
+
+> [!NOTE]
+> Staging is *not* the same as stashing. **Staging** chooses what goes into your next commit; **stashing** (covered in [Going Further](05-going-further.md)) sets changes *aside* instead of committing them. The names look alike but they do opposite things.
+
 **GitHub Desktop:**
 1. Make and save some changes to your files.
 2. Open GitHub Desktop — changed files appear on the left, the exact lines that changed on the right.
-3. Tick the files you want to include (usually all).
+3. Tick the files you want to include (usually all) — *this is staging*.
 4. Type a **summary** message at the bottom left ("Add bandpass filter").
 5. Click **Commit to main.**
 
@@ -56,25 +64,8 @@ git pull
 
 ---
 
-## Bonus: stash — set changes aside temporarily
-
-Sometimes you're half-way through something messy and need a clean project *right now* (e.g. to pull updates). **Stashing** tucks your uncommitted changes away safely, so your working folder returns to the last commit — then you can bring them back later.
-
-**GitHub Desktop:** right-click the current branch → **Stash all changes.** To restore: **Stash → Restore.**
-
-**Terminal:**
-```bash
-git stash        # hide current changes
-git pull         # do your clean operation
-git stash pop    # bring your changes back
-```
-
-Think of it as a temporary drawer for work-in-progress you're not ready to commit.
-
----
-
 > [!IMPORTANT]
-> **That's the bare minimum.** Commit, push, pull (+ the occasional stash) cover the vast majority of everyday work — you can be productive with just these.
+> **That's the bare minimum.** Commit, push, and pull cover the vast majority of everyday work — you can be productive with just these.
 
 > [!CAUTION]
 > Before this becomes a habit, read **[Best Practices](04-best-practices.md)** next — it's short and it's the part that keeps patient data out of GitHub. When you're ready for the optional extras → **[Going Further](05-going-further.md)**.

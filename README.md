@@ -50,12 +50,12 @@ These first four pages are the **essentials** — read them in order and you'll 
 
 1. **[Setup](01-setup.md)** — install the tools and create your account.
 2. **[Create a Repository](02-create-a-repository.md)** — make your first repo; public vs private.
-3. **[The Core Workflow](03-core-workflow.md)** — commit, push, pull (and stash). This is all you need day to day.
+3. **[The Core Workflow](03-core-workflow.md)** — commit, push, pull. This is all you need day to day.
 4. **[Best Practices](04-best-practices.md)** — what's good, what's a hard no (data!), and `.gitignore`. **Don't skip this** — it's the part that keeps medical data safe.
 
 When you're comfortable and want more:
 
-5. **[Going Further](05-going-further.md)** — branches, undoing changes, and collaborators.
+5. **[Going Further](05-going-further.md)** — branches, undoing changes, stash, and collaborators.
 
 > [!NOTE]
 > Every step is shown **two ways**: with **GitHub Desktop** (a free point-and-click app — easiest to start with) and the **terminal / command line** for those who prefer it or need it later. Use whichever you like; they do the same thing.

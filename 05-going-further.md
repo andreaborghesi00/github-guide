@@ -46,6 +46,24 @@ Git's superpower is that almost nothing is ever truly lost. A few common situati
 > [!WARNING]
 > Commands like `git reset --hard` permanently discard uncommitted work. If you're unsure, **commit first** (a commit is a safe checkpoint) or stash, then experiment. When in real doubt, ask before running destructive commands.
 
+## Stash — set changes aside temporarily
+
+Sometimes you're half-way through something messy and need a clean project *right now* (e.g. to pull updates). **Stashing** tucks your uncommitted changes away safely, so your working folder returns to the last commit — then you can bring them back later.
+
+**GitHub Desktop:** right-click the current branch → **Stash all changes.** To restore: **Stash → Restore.**
+
+**Terminal:**
+```bash
+git stash        # hide current changes
+git pull         # do your clean operation
+git stash pop    # bring your changes back
+```
+
+Think of it as a temporary drawer for work-in-progress you're not ready to commit.
+
+> [!NOTE]
+> Stash is *not* the same as [staging](03-core-workflow.md): staging picks what goes *into* a commit, while stashing sets changes *aside* instead of committing them.
+
 ## Collaborators — working with others
 
 **Invite people (private repo):** on github.com, open your repo → **Settings → Collaborators → Add people** (by username). They get an invite and can then clone, pull and push.

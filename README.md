@@ -1,4 +1,4 @@
-# Getting Started with GitHub — A Guide for the Team
+# Getting Started with GitHub
 
 A short, practical introduction to Git and GitHub for people who write code as part of their work but were never formally taught version control.
 

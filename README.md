@@ -1,8 +1,8 @@
 # Getting Started with GitHub — A Guide for the Team
 
-A short, practical introduction to Git and GitHub for people who write code as part of their work (technical medicine, biomedical engineering, data & AI) but were never formally taught version control.
+A short, practical introduction to Git and GitHub for people who write code as part of their work but were never formally taught version control.
 
-You don't need a computer-science background. The goal is to get you from *"my code lives in a folder on my laptop"* to *"my code is versioned, backed up, and shareable"* — without bad habits, and **without ever leaking patient data.**
+You don't need a computer-science background. The goal is to get you from *"my code lives in a folder on my laptop"* to *"my code is versioned, backed up, and shareable"*  without bad habits, and **without ever leaking patient data.**
 
 ---
 
